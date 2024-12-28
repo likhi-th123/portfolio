@@ -69,9 +69,6 @@
     }
 }
 
-
-
-
 @media (max-width:358px){
     .project-name{
         display: grid;
@@ -162,6 +159,34 @@
         cursor: pointer;
         }
 }
+
+@media (max-width:1197px){
+    .contact-left{
+        flex-basis: 50%!important;
+    }
+    .contact-right{
+        flex-basis: 50% !important;
+    }
+}
+@media (max-width:1124px){
+    .contact-left{
+        flex-basis: 50%!important;
+    }
+    .contact-right{
+        flex-basis: 50% !important;
+    }
+}
+@media (max-width:640px){
+    .contant-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column!important;
+    }
+}
+
+
+/* -----------------nav---------------------- */
 nav .fa{
     display: none;
     
@@ -189,12 +214,7 @@ nav ul  li a{
     position: relative;
 
 }
-/* nav ul li a:hover{ */
-    /* box-shadow: 3px 3px 5px 3px lightblue ; */
-    /* background-color: lightblue; */
-    /* color: black; */
-    /* border-radius: 25%; */
-/* } */
+
 nav ul li a::after{
     content: '';
     width: 0;
@@ -269,12 +289,12 @@ nav ul li a:hover::after{
     /* cover 20% */
     /* object-fit: contain; */
   }
+
   /* ----------------------about-section---------------------> */
+
   #about{
-    padding: 80px;
+    padding: 80px 0 0 0;
     color: #ababad;
-
-
 }
 .row{
     display: flex;
@@ -339,6 +359,7 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
         display: block;
 }
+
 /* --------------------------------------------service-section---------------- */
 
 
@@ -379,8 +400,7 @@ nav ul li a:hover::after{
     font-weight: 13px;
     border-right: 10px;
     transition: background 0.5s,transform 0.5s;
-    box-shadow: 1px 1px 20px grey,
-    1px,1px,40px blue;
+    box-shadow: 1px 1px 20px grey, 1px,1px,40px blue;
    
 
 }
@@ -392,12 +412,12 @@ nav ul li a:hover::after{
 
 
 .services-1{
-    background-image: url(./img/ui\ designer.avif);
+    background-image: url(./img/uidesigner.avif);
     background-repeat: no-repeat;
     background-size: auto 600px;
 }
 .services-3{
-    background-image: url(./img/app\ application.avif);
+    background-image: url(./img/appapplication.avif);
     background-repeat: no-repeat;
     background-size: auto 600px;
 }
@@ -428,6 +448,7 @@ nav ul li a:hover::after{
    font-weight: 400;
 
 }
+
 /* ------------------------------------projects---------- */
 .project-name{
     display: grid;
@@ -488,35 +509,6 @@ nav ul li a:hover::after{
      border-radius: 40px;
      
 }
-
-@media (max-width:1197px){
-    .contact-left{
-        flex-basis: 50%!important;
-    }
-    .contact-right{
-        flex-basis: 50% !important;
-    }
-}
-@media (max-width:1124px){
-    .contact-left{
-        flex-basis: 50%!important;
-    }
-    .contact-right{
-        flex-basis: 50% !important;
-    }
-}
-@media (max-width:640px){
-    .contant-container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column!important;
-        
-    
-    }
-
-}
-
 .contant-container{
     display: flex;
     align-items: center;
